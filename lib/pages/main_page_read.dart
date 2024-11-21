@@ -20,7 +20,7 @@ class MainPageFiles extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text("Por favor clique no botão abaixo e escolha o arquivo que deseja ler."),
+              const Text("Por favor clique no botão abaixo e escolha o arquivo que deseja visualizar."),
               ElevatedButton(
                 onPressed: () async {
                   final file = await PDFService.selectFile();
